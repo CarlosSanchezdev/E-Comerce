@@ -9,7 +9,7 @@
 
 body{
     width: 100vw;
-    background-color: pink;
+    background-color: white;
    
 }
 
@@ -169,16 +169,16 @@ footer{
 }
 
 #product-description{
-    background-color: pink;
+    background-color: white;
 }
 #product-title{
     margin-top: 12vh;
     font-weight: 600;
     font-size: 8vh;
-    background-color: pink;
+    background-color: white;
 }
 
 #product-comments{
     margin-top: 30vh;
-    background-color: pink;
+    background-color: white;
 }
