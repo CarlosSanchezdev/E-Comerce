@@ -19,7 +19,7 @@ header {
     height: 5vh;
     background-color: rgb(184, 184, 247);
     letter-spacing: 1vh;
-    position: fixed;
+    
 
 }
 
@@ -190,4 +190,26 @@ footer {
 #product-comments {
     margin-top: 30vh;
     background-color: white;
+}
+
+
+
+/********************************
+***          SHOPPINGCART     ***
+********************************/
+
+.main-cart {
+    width: 60vw;
+}
+.total-cart {
+    width: 30vw;
+    text-align: center;
+}
+.body-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.itemCart {
+    display: flex;
 }
