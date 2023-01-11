@@ -1,53 +1,45 @@
 * {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: "Harlow";
     color: black;
     margin: 0;
     padding: 0;
-
-
 }
 
 body {
     width: 100vw;
-    background-color: white;
-
 }
 
 header {
-
+    padding-top: 2vh;
+    padding-bottom: 0.2vh;
     width: 100vw;
     height: 5vh;
-    background-color: rgb(184, 184, 247);
+    background-color: black;
     letter-spacing: 1vh;
-    
-
+    position: fixed;
 }
 
 ul {
     display: flex;
     justify-content: space-evenly;
-
-
-
-
 }
 
 li {
 
     list-style: none;
-    font-size: 3vh;
-
-
-
+    font-size: 2vh;
+    letter-spacing: 0.5vh;
+    color: white;
 }
 
 li:hover {
     font-weight: 600;
+    color: blueviolet;
+    cursor: pointer;
 }
 
 #carrito {
-    width: 6vh;
-    height: 5vh;
+    margin-top: -1vh;
 }
 
 #logo-div {
@@ -58,138 +50,121 @@ li:hover {
 }
 
 #logo {
-
-    width: 45vh;
-    height: 30vh;
-}
-
-
-
-.main-container {
-    margin-top: 0vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100vw;
-
-
+    margin-top: 3vh;
 }
 
 h1 {
-    background-color: rgb(124, 124, 187);
     width: 100vw;
     margin-bottom: 0;
     text-align: center;
+    letter-spacing: 1.4vh;
+    font-weight: 300;
+    font-size: 4vh;
+    padding: 2vh;
+    color: white;
 }
 
+.title-new {
+    background-image: url(/imagenes/Novedades.png);
+    background-size: cover;
+}
 
-.products {
+.title-products {
+    background-image: url(/imagenes/Novedades.jpg);
+    background-size: cover;
+}
+
+.title-exclusive {
+    background-image: url(/imagenes/samurai-japan-japanese-digital-art-artwork-hd-wallpaper-d33e540c52f0c77ca182734d8eb51838.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin-top: -3vh;
+}
+
+#new,
+#products,
+#exclusive {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5vh;
-
+    align-items: flex-start;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
-h1 {
-    letter-spacing: 2vh;
-    font-weight: 300;
-}
-
-.article {
-    margin-left: 6vh;
-    margin-right: 6vh;
-    margin-bottom: 2vh;
-    width: 30vh;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.img-article {
-    width: 18vh;
-    height: 30vh;
+#product-image {
+    width: 20vh;
+    height: 27vh;
     margin-top: 2vh;
+    margin-left: 13vh;
+    transition: all .2s ease-in-out;
 }
 
-.product-name {
-    font-weight: 500;
+#product-image:hover {
+    transform: scale(1.1);
+}
+
+#product-title {
     letter-spacing: 0.2vh;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-
+    font-size: 3.4vh;
+    line-height: 3.5vh;
+    margin-left: 3vh;
+    text-align: center;
+    max-width: 40vh;
 }
 
-.description {
-
-    width: 30vh;
-    display: flex;
-    justify-content: center;
-    max-width: 30vh;
-
+#product-description {
+    margin-top: 3vh;
+    width: 50vh;
+    max-width: 49vh;
+    line-height: 3.5vh;
+    font-family: "Harlowlight";
+    font-size: 2.1vh;
 }
 
-#partners {
-    margin-bottom: 10vh;
+#product-price {
+    font-size: 30px;
+    margin-top: 3vh
+}
+
+#product-button {
+    font-family: "Harlow";
+    text-align: center;
+    margin-top: 1vh;
+    border-color: black;
+    background-color: white;
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+#product-button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
 }
 
 footer {
-    background-color: rgb(184, 184, 247);
+    background-color: rgb(0, 0, 0);
     margin-bottom: 0;
     position: absolute;
     left: 0;
     right: 0;
-    height: 8vh;
-
-
+    height: 10vh;
 }
 
 #twitter {
     height: 4vh;
     width: 4vh;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
 #principal-product-img {
     margin-top: 12vh;
     width: 60vh;
     height: 80vh;
-}
-
-.main-product {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-
-}
-
-#product-info {
-
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-#product-description {
-    background-color: white;
-}
-
-#product-title {
-    margin-top: 12vh;
-    font-weight: 600;
-    font-size: 8vh;
-    background-color: white;
-}
-
-#product-comments {
-    margin-top: 30vh;
-    background-color: white;
 }
 
 
